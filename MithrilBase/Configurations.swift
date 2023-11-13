@@ -10,4 +10,5 @@ import Foundation
 struct Configurations {
     
     static let weathermapApiKey: String = "08d241436801787dded69be752d37c05"
+    static let tmdbApiKey: String = "__TMDB_APIKEY__"
 }

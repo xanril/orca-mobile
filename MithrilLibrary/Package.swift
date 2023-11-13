@@ -25,6 +25,7 @@ let package = Package(
         // .package(url: /* package url */, from: "1.0.0"),
         .package(url: "https://github.com/xanril/MithrilCore.git", branch: "main"),
         .package(url: "https://github.com/Alamofire/Alamofire.git", from: "5.0.0"),
+        .package(url: "https://github.com/adamayoung/TMDb.git", from: "9.0.0")
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -40,7 +41,7 @@ let package = Package(
             dependencies: ["MithrilCore", "MRLBusinessModels"]),
         .target(
             name: "MRLDataServices",
-            dependencies: ["MithrilCore", "Alamofire", "MRLDataServiceProtocols", "MRLBusinessModels"]),
+            dependencies: ["MithrilCore", "Alamofire", "TMDb", "MRLDataServiceProtocols", "MRLBusinessModels"]),
         .target(
             name: "MRLControllerProtocols",
             dependencies: ["MithrilCore", "MRLDataServiceProtocols", "MRLBusinessModels"]),

@@ -5,6 +5,6 @@
       location = "group:MithrilLibrary">
    </FileRef>
    <FileRef
-      location = "group:MithrilBase.xcodeproj">
+      location = "group:/Users/ginma/Projects/Xanril/orca-mobile/OrcaMobile.xcodeproj">
    </FileRef>
 </Workspace>
