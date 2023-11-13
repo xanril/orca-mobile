@@ -32,7 +32,6 @@
 		356F96DB2AB58C5800BEE6A0 /* WorkshopPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356F96DA2AB58C5800BEE6A0 /* WorkshopPage.swift */; };
 		3579F0C9283E5CB30006A339 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3579F0C8283E5CB30006A339 /* Alamofire */; };
 		3593BF5A2B01B13F00E296BC /* TMDb in Frameworks */ = {isa = PBXBuildFile; productRef = 3593BF592B01B13F00E296BC /* TMDb */; };
-		3593BF5E2B01B21200E296BC /* SamplePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3593BF5D2B01B21200E296BC /* SamplePage.swift */; };
 		3593BF632B01FB8100E296BC /* WorkshopPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3593BF622B01FB8100E296BC /* WorkshopPageViewModel.swift */; };
 		35D9BBB12839F585001D627F /* MithrilBaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D9BBB02839F585001D627F /* MithrilBaseApp.swift */; };
 		35D9BBB32839F585001D627F /* WeatherPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D9BBB22839F585001D627F /* WeatherPage.swift */; };
@@ -84,7 +83,6 @@
 		356F96C52AB58C2100BEE6A0 /* GroupButtonStyle+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GroupButtonStyle+Extensions.swift"; sourceTree = "<group>"; };
 		356F96C62AB58C2100BEE6A0 /* RadioButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioButtons.swift; sourceTree = "<group>"; };
 		356F96DA2AB58C5800BEE6A0 /* WorkshopPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkshopPage.swift; sourceTree = "<group>"; };
-		3593BF5D2B01B21200E296BC /* SamplePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplePage.swift; sourceTree = "<group>"; };
 		3593BF622B01FB8100E296BC /* WorkshopPageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkshopPageViewModel.swift; sourceTree = "<group>"; };
 		35D9BBAD2839F585001D627F /* OrcaMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrcaMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35D9BBB02839F585001D627F /* MithrilBaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MithrilBaseApp.swift; sourceTree = "<group>"; };
@@ -133,7 +131,6 @@
 				356F96B22AB58C2100BEE6A0 /* Controls */,
 				35D9BBB22839F585001D627F /* WeatherPage.swift */,
 				356F96DA2AB58C5800BEE6A0 /* WorkshopPage.swift */,
-				3593BF5D2B01B21200E296BC /* SamplePage.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -391,7 +388,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3593BF5E2B01B21200E296BC /* SamplePage.swift in Sources */,
 				356F96D02AB58C2100BEE6A0 /* NavigatorsBottom.swift in Sources */,
 				356F96D92AB58C2100BEE6A0 /* RadioButtons.swift in Sources */,
 				356F96C92AB58C2100BEE6A0 /* ButtonGroups.swift in Sources */,
